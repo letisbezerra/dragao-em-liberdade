@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ReactMarkdown from "react-markdown";
-import WaveSVG from "./WaveSVG";
+import dragaoImage from "@/assets/dragao-do-mar.png";
 
 type Message = {
   role: "user" | "assistant";
@@ -98,7 +98,7 @@ const ChatSection = () => {
           className="text-center max-w-2xl mx-auto mb-12"
         >
           <img
-            src="src/assets/dragao-do-mar.png"
+            src={dragaoImage}
             alt="Retrato artístico de Francisco José do Nascimento, o Dragão do Mar"
             className="mx-auto mb-6 w-48 h-48 rounded-full object-scale-down shadow-lg border-4 border-ocean-foam"
           />
