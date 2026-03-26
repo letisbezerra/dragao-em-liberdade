@@ -1,9 +1,3 @@
-![Node.js](https://img.shields.io/badge/Node.js-v18-green) 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) 
-![Vercel](https://img.shields.io/badge/Vercel-Frontend-black) 
-![Render](https://img.shields.io/badge/Render-Backend-orange) 
-![License](https://img.shields.io/badge/License-CC%20BY--NC-lightgrey) <br>
-
 # Dragão em Liberdade 🌊⛵
 
 🌐 **Live Demo:** [dragao-em-liberdade.vercel.app](https://dragao-em-liberdade.vercel.app/)
