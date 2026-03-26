@@ -2,7 +2,7 @@ const WaveSVG = ({ className = "", flip = false }: { className?: string; flip?: 
   <svg
     className={className}
     viewBox="0 0 1440 120"
-    preserveAspectRatio="meet"
+    preserveAspectRatio="none"
     aria-hidden="true"
     style={flip ? { transform: "rotate(180deg)" } : undefined}
   >
